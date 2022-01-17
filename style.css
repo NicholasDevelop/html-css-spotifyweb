@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+body{
+    display: flex;
+    position: relative;
+    height: 100vh;
+}
+
+
+/* Header Rules */
+header{
+    width: 220px;
+    background-color: #000000;
+}
+
+
+
+/* Main Rules */
+main{
+    flex-grow: 1;
+    background-color: #141922;
+}
+
+
+
+/* Footer Rules */
+
+footer{
+    height: 90px;
+    width: 100%;
+    background-color: #282828;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
