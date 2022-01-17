@@ -107,7 +107,7 @@ footer{
     height: 10px;
     width: 10px;
     border-radius: 50px;
-    background-color: rgb(17, 247, 17);
+    background-color: white;
     position: absolute;
     top: 0;
     right: 0;
@@ -125,10 +125,12 @@ footer{
 }
 
 .bar .current-time{
-    width: 15%;
+    width: 20%;
     height: 5px;
     color: white;
-    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .bar:hover .current-time{
