@@ -27,6 +27,13 @@ header{
 main{
     flex-grow: 1;
     background-color: #141922;
+    overflow-y: auto;
+
+}
+
+.banner{
+    height: 90px;
+    background-color: #080B12;
 }
 
 
