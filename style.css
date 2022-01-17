@@ -52,6 +52,7 @@ footer{
     align-items: center;
 }
 
+/* Song Container */
 .song{
     width: 220px;
     padding: 20px 10px;
@@ -85,4 +86,55 @@ footer{
     align-items: center;
     gap: 10px;
     color: #636363;
+}
+
+/* Player Container */
+
+
+
+/* Volume-command Container */
+.volume-command{
+    display: flex;
+    width: 220px;
+    padding: 20px 10px;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.cursor-ball{
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    background-color: rgb(17, 247, 17);
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate( 50% , -25% );
+    z-index: 5;
+    visibility: hidden;
+}
+
+.bar{
+    height: 5px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: #636363;
+    position: relative;
+}
+
+.bar .current-time{
+    width: 15%;
+    height: 5px;
+    color: white;
+    z-index: 1;
+}
+
+.bar:hover .current-time{
+    background-color: rgb(17, 247, 17);
+}
+
+.bar:hover .cursor-ball{
+    visibility: visible;
 }
