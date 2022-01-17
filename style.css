@@ -1,7 +1,7 @@
 /* General Rules */
 *{
     margin: 0;
-    padding: 0%;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -54,5 +54,35 @@ footer{
 
 .song{
     width: 220px;
-    padding: 7px 20px;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.actual-song{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-album{
+    height: 50px;
+    width: 50px;
+}
+
+.song-album{
+    color: white;
+    font-size: 15px;
+}
+
+.song-name{
+    color: #636363;
+    font-size: 13px;
+}
+
+.song-reaction{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #636363;
 }
