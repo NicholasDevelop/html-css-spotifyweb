@@ -81,11 +81,20 @@ footer{
     font-size: 13px;
 }
 
+.song-name:hover{
+    color: white;
+    text-decoration: underline;
+}
+
 .song-reaction{
     display: flex;
     align-items: center;
     gap: 10px;
     color: #636363;
+}
+
+.heart:hover, .folder:hover{
+    color: white;
 }
 
 /* Player Container */
@@ -127,7 +136,7 @@ footer{
 .bar .current-time{
     width: 20%;
     height: 5px;
-    color: white;
+    background-color: white;
     position: absolute;
     bottom: 0;
     left: 0;
