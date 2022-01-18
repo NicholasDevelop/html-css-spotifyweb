@@ -87,15 +87,57 @@ header{
     margin-bottom: 15px;
 }
 
+.playlist-body{
+    overflow-y: auto;
+}
+
+.playlist-items{
+    height: 175px;
+}
+
 .playlist-items li{
     font-size: 10px;
     font-weight: bold;
 }
 
-.playlist-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.personal-area{
+    padding-left: 20px;
+}
+
+.download{
+    width: 12px;
+}
+
+.download{
+    margin-right: 5px;
+}
+
+.download+h4{
+    font-size: 10px;
+}
+
+.download-area{
+    padding-bottom: 2px;
+    border-bottom: 1px solid #636363;
+    margin-right: 20px;
+}
+
+.profile-area{
+    padding: 5px 0 5px 0;
+}
+
+.my-info{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: #636363;
+    overflow: hidden;
+    margin-right: 5px;
+}
+
+.my-info+h4{
+    color: white;
+    font-size: 13px;
 }
 
 
