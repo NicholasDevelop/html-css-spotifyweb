@@ -30,6 +30,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 100%;
 }
 
 .img-logo{
@@ -70,6 +71,7 @@ header{
 
 .sidebar-playlist{
     padding: 0 0 10px 20px;
+    height: 245px;
 }
 
 .sidebar-playlist h3{
@@ -112,10 +114,7 @@ header{
 
 .playlist-body{
     overflow-y: auto;
-}
-
-.playlist-items{
-    height: 175px;
+    min-height: 100px;
 }
 
 .playlist-items li{
@@ -178,13 +177,13 @@ header{
 /* Banner Container */
 main{
     flex-grow: 1;
-    background-color: rgba(0, 0, 0, 0.295);
+    background-color: #141922;
     overflow-y: auto;
 }
 
 .banner{
     height: 90px;
-    background-color: #080B12;
+    background-color: rgba(0, 0, 0, 0.3);
     text-align: right;
 }
 
