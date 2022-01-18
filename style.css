@@ -33,9 +33,15 @@ header{
     height: 100%;
 }
 
+.sidebar-main{
+    overflow: hidden;
+    height: 100%;
+}
+
 .img-logo{
     width: 120px;
     margin: 20px 0 20px 20px;
+    min-height: 40px;
 }
 
 .sidebar-element.active{
@@ -47,6 +53,7 @@ header{
 
 .sidebar-menu{
     padding: 0 0 15px 20px;
+    min-height: 105px;
 }
 
 .sidebar-element{
@@ -71,7 +78,7 @@ header{
 
 .sidebar-playlist{
     padding: 0 0 10px 20px;
-    height: 245px;
+    height: 100%;
 }
 
 .sidebar-playlist h3{
@@ -102,6 +109,7 @@ header{
 
 .playlist-head{
     margin-bottom: 15px;
+    min-height: 30px;
 }
 
 .playlist-head:hover .add-playlist{
@@ -114,7 +122,7 @@ header{
 
 .playlist-body{
     overflow-y: auto;
-    min-height: 100px;
+    height: 42%;
 }
 
 .playlist-items li{
@@ -161,7 +169,6 @@ header{
     height: 20px;
     border-radius: 50px;
     background-color: #636363;
-    overflow: hidden;
     margin-right: 5px;
 }
 
