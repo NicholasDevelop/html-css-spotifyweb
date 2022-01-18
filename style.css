@@ -13,7 +13,7 @@ img{
 body{
     display: flex;
     position: relative;
-    height: 100vh;
+    height: calc( 100vh - 90px );
 }
 
 li{
@@ -129,7 +129,6 @@ header{
 
 .personal-area{
     padding-left: 20px;
-    margin-bottom: 90px;
 }
 
 .download{
@@ -179,7 +178,7 @@ header{
 /* Banner Container */
 main{
     flex-grow: 1;
-    background-color: #141922;
+    background-color: rgba(0, 0, 0, 0.295);
     overflow-y: auto;
 }
 
