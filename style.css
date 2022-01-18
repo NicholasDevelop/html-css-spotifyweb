@@ -16,11 +16,17 @@ body{
     height: 100vh;
 }
 
+li{
+    height: 25px;
+    list-style: none;
+}
+
 
 /* Header Rules */
 header{
     width: 220px;
     background-color: #000000;
+    color: #636363;
 }
 
 .img-logo{
@@ -29,8 +35,7 @@ header{
 }
 
 .sidebar-menu{
-    color: #636363;
-    padding: 0 0 20px 20px;
+    padding: 0 0 15px 20px;
 }
 
 .sidebar-element{
@@ -40,11 +45,6 @@ header{
     margin-bottom: 5px;
 }
 
-.sidebar-menu li{
-    height: 25px;
-    list-style: none;
-}
-
 .sidebar-menu img{
     height: 20px;
     width: 20px;
@@ -52,6 +52,50 @@ header{
 
 .sidebar-menu h4{
     font-size: 11px;
+}
+
+.sidebar-playlist{
+    padding: 0 0 10px 20px;
+}
+
+.sidebar-playlist h3{
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.add-playlist{
+    height: 30px;
+    width: 30px;
+    background-color: #636363;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+}
+
+.sidebar-playlist i{
+    font-size: 18px;
+    color: black;
+}
+
+.sidebar-playlist h4{
+    font-size: 13px;
+}
+
+.playlist-head{
+    margin-bottom: 15px;
+}
+
+.playlist-items li{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.playlist-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
