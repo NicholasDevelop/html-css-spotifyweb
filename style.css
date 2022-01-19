@@ -238,9 +238,34 @@ nav{
 
 .container-title{
     font-size: 20px;
+    margin-bottom: 20px;
 }
 
+.album-container{
+    display: flex;
+}
 
+.card{
+    width: 15%;
+}
+
+.img-card{
+    margin-bottom: 10px;
+}
+
+.card-title, .card-artist{
+    text-align: center;
+}
+
+.card-title{
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.card-artist{
+    font-size: 11px;
+    color: #636363;
+}
 
 
 
