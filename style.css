@@ -21,6 +21,10 @@ li{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+    color: currentColor;
+}
 
 /* Header Rules */
 header{
@@ -35,11 +39,11 @@ header{
 
 .sidebar-main{
     overflow: hidden;
-    height: 100%;
+    flex-grow: 1;
 }
 
 .img-logo{
-    width: 120px;
+    width: 130px;
     margin: 20px 0 20px 20px;
     min-height: 40px;
 }
@@ -135,14 +139,11 @@ header{
 }
 
 .personal-area{
-    padding-left: 20px;
+    padding: 0 20px;
 }
 
 .download{
     width: 12px;
-}
-
-.download{
     margin-right: 5px;
 }
 
@@ -153,7 +154,6 @@ header{
 .download-area{
     padding-bottom: 2px;
     border-bottom: 1px solid #636363;
-    margin-right: 20px;
 }
 
 .download-area h4:hover{
@@ -170,6 +170,7 @@ header{
     border-radius: 50px;
     background-color: #636363;
     margin-right: 5px;
+    overflow: hidden;
 }
 
 .my-info+h4{
@@ -214,6 +215,31 @@ main{
 }
 
 /* Main Content */
+nav{
+    text-align: center;
+}
+
+.main-content nav ul li{
+    display: inline-block;
+    margin: 0 5px 0 5px;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #636363;
+}
+
+.main-content nav li a:hover{
+    color: white;
+}
+
+.container{
+    margin: 20px;
+    color: white;
+}
+
+.container-title{
+    font-size: 20px;
+}
+
 
 
 
@@ -237,6 +263,7 @@ footer{
     padding: 20px 10px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .actual-song{
@@ -266,10 +293,11 @@ footer{
 }
 
 .song-reaction{
-    display: flex;
-    align-items: center;
-    gap: 10px;
     color: #636363;
+}
+
+.folder, .heart{
+    margin-left: 7px;
 }
 
 .heart:hover, .folder:hover{
@@ -277,6 +305,10 @@ footer{
 }
 
 /* Player Container */
+.player{
+    width: 40%;
+}
+
 .player-command, .player-bar{
     display: flex;
     justify-content: center;
@@ -302,22 +334,6 @@ footer{
     font-size: 13px;
 }
 
-.player-bar .bar{
-    width: 420px;
-}
-
-
-/* Volume-command Container */
-.volume-command{
-    display: flex;
-    width: 220px;
-    padding: 20px 10px;
-    gap: 15px;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
-
 .cursor-ball{
     height: 10px;
     width: 10px;
@@ -328,15 +344,17 @@ footer{
     right: 0;
     transform: translate( 50% , -25% );
     z-index: 5;
+    cursor: pointer;
     visibility: hidden;
 }
 
 .bar{
     height: 5px;
-    width: 100px;
+    flex-basis: 100px;
     border-radius: 8px;
     background-color: #636363;
     position: relative;
+    flex-grow: 1;
 }
 
 .bar .current-time-bar{
@@ -354,4 +372,16 @@ footer{
 
 .bar:hover .cursor-ball{
     visibility: visible;
+}
+
+
+/* Volume-command Container */
+.volume-command{
+    display: flex;
+    width: 220px;
+    padding: 20px 10px;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
