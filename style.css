@@ -232,25 +232,41 @@ nav{
 }
 
 .container{
-    margin: 20px;
+    margin: 10px 10px 30px 10px;
     color: white;
 }
 
 .container-title{
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+}
+
+.container-title-description, .card-artist{
+    font-size: 11px;
+    color: #636363;
 }
 
 .album-container{
     display: flex;
+    margin-top: 20px;
 }
 
 .card{
     width: 15%;
+    margin-right: 2%;
+}
+
+.card:last-child{
+    margin-right: -2%;
 }
 
 .img-card{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+}
+
+.img-card.circle{
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .card-title, .card-artist{
@@ -260,11 +276,6 @@ nav{
 .card-title{
     font-size: 13px;
     margin-bottom: 5px;
-}
-
-.card-artist{
-    font-size: 11px;
-    color: #636363;
 }
 
 
