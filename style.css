@@ -205,6 +205,7 @@ main{
     position: sticky;
     top: 0;
     left: 0;
+    z-index: 20;
 }
 
 .banner .upgrade{
@@ -341,6 +342,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 9999;
 }
 
 /* Song Container */
