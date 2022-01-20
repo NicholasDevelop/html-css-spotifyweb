@@ -12,9 +12,6 @@
 
 
 @media screen and ( max-width:639px ){
-    *{
-        transition: 2s;
-    }
     .container{
         margin: 10px 20px;
     }
@@ -29,9 +26,6 @@
 
 
 @media screen and ( max-width:576px ){
-    *{
-        transition: 2s;
-    }
     header{
         width: 40px;
         align-items: center;
