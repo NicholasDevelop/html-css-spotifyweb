@@ -39,13 +39,15 @@ header{
 
 .sidebar-main{
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
     flex-grow: 1;
+
 }
 
 .logo-visible{
     width: 130px;
     margin: 20px 0 20px 20px;
-    min-height: 40px;
 }
 
 .logo-hidden{
@@ -63,7 +65,6 @@ header{
 
 .sidebar-menu{
     padding: 0 20px 15px 20px;
-    min-height: 105px;
 }
 
 .sidebar-element{
@@ -87,12 +88,13 @@ header{
 }
 
 .sidebar-playlist{
-    padding: 0 0 10px 20px;
-    height: 100%;
+    /* padding: 0 20px 15px 20px; */
+    display: contents;
 }
 
 .sidebar-playlist h3{
     margin-bottom: 8px;
+    padding: 0 20px;
     text-transform: uppercase;
     font-size: 12px;
     color: white;
@@ -100,12 +102,12 @@ header{
 
 .add-playlist{
     height: 30px;
+    margin: 0 5px 0 20px;
     width: 30px;
     background-color: #636363;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 5px;
 }
 
 .sidebar-playlist i{
@@ -130,12 +132,13 @@ header{
     color: white;
 }
 
-.playlist-body{
+.playlist-items{
     overflow-y: auto;
-    height: 42%;
+    flex-grow: 1;
 }
 
 .playlist-items li{
+    padding: 0 20px;
     font-size: 10px;
     font-weight: bold;
 }
