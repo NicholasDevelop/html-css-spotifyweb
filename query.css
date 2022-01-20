@@ -1,12 +1,11 @@
 @media screen and ( max-width:878px ){
-    *{
-        transition: 2s;
-    }
     .card{
         width: calc( 94% / 4 );
+        transition: 2s;
     }
     .card-title{
         font-size: 11px;
+        transition: 2s;
     }
 }
 
@@ -14,13 +13,16 @@
 @media screen and ( max-width:639px ){
     .container{
         margin: 10px 20px;
+        transition: 2s;
     }
     .card{
         width: calc( 96% / 2 );
         margin-bottom: 10px;
+        transition: 2s;
     }
     .album-container{
         gap: 4%;
+        transition: 2s;
     }
 }
 
@@ -29,6 +31,7 @@
     header{
         width: 40px;
         align-items: center;
+        transition: 2s;
     }
     .logo-visible{
         display: none;
@@ -56,6 +59,7 @@
         margin-right: 0;
     }
     .player-command, .player-bar{
+        transition: 2s;
         gap: 10px;
     }
 }
